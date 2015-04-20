@@ -22,14 +22,14 @@ classifiers = [
     'Development Status :: 1 - Beta',
     'Environment :: Console',
     'Intended Audience :: Developers',
-    'License :: Free',
+    'License :: MIT',
     'Operating System :: POSIX',
     'Operating System :: MacOS :: MacOS X',
     'Programming Language :: Python :: 2.7',
     'Topic :: Utilities',
 ]
 
-long_description = """paascli is a command line utility built using libpaas"""
+long_description = """paascli is a command line utility built using libpaas. It will help you manage CAMP compliant applications across multiple PaaS providers seamlessly"""
 
 setup(name='paascli',
       version='0.1',
@@ -37,14 +37,16 @@ setup(name='paascli',
       entry_points={
           'console_scripts': ['paascli = libpaas.paascli.paascli:paascli']
       },
-      description="iox-client is a tool that helps in creating and managing applications for Cisco's IOx platforms",
+      description="paascli is a CLI toolbelt to manage CAMP compliant apps across multiple PaaS providers",
       long_description=long_description,
-      author='hvishwanath',
+      author='Harish Vishwanath',
       author_email='harish.shastry@gmail.com',
-      maintainer='hvishwanath',
+      maintainer='Harish Vishwanath',
       maintainer_email='harish.shastry@gmail.com',
-      url='http://hvishwanath.net',
-      license='Free',
+      url='https://github.com/hvishwanath/libpaas',
+      download_url = "https://github.com/hvishwanath/libpaas/tarball/master",
+      keywords = ['testing', 'logging', 'example'], # arbitrary keywords
+      license='MIT',
       platforms='UNIX',
       classifiers=classifiers,
       install_requires=install_requires,

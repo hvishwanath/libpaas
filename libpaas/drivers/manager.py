@@ -1,7 +1,7 @@
 __author__ = 'hvishwanath'
 
 from heroku import Heroku
-from openshift import OpenShift
+from openshift import Openshift
 
 class DriverManager(object):
 
@@ -27,7 +27,7 @@ class DriverManager(object):
     def __init__(self):
         self.drivers = {}
         self.add_driver("heroku", Heroku)
-        self.add_driver("openshift", OpenShift)
+        self.add_driver("openshift", Openshift)
 
     def add_driver(self, name, cls):
         self.drivers[name] = cls

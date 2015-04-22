@@ -23,7 +23,7 @@ classifiers = []
 long_description = """paascli is a command line utility built using libpaas. It will help you manage CAMP compliant applications across multiple PaaS providers seamlessly"""
 
 setup(name='paascli',
-      version='0.2',
+      version='0.3',
       packages=['libpaas', 'libpaas.camp', 'libpaas.drivers', 'libpaas.paascli'],
       entry_points={
           'console_scripts': ['paascli = libpaas.paascli.paascli:paascli']

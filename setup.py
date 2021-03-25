@@ -6,7 +6,7 @@ import sys, os
 import platform
 
 install_requires = [
-    "PyYAML==3.11",
+    "PyYAML==5.4",
     "click==4.0",
     "peewee==2.5.1",
     "requests==2.6.0",
